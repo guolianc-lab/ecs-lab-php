@@ -1,0 +1,17 @@
+{
+    "cluster": "%CLUSTER%",
+    "serviceName": "%SERVICE_NAME%",
+    "taskDefinition": "%FAMILY%",
+    "loadBalancers": [{
+        "targetGroupArn": "%TG_ARN%",
+        "containerName": "ecslabphp",
+        "containerPort": 80
+    }],
+    "deploymentConfiguration": {
+        "maximumPercent": 200,
+        "minimumHealthyPercent": 100
+    },
+    "healthCheckGracePeriodSeconds": 0,
+    "desiredCount": 3,
+    "role": "ecsServiceRole"
+}
