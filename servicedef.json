@@ -12,6 +12,6 @@
         "minimumHealthyPercent": 100
     },
     "healthCheckGracePeriodSeconds": 0,
-    "desiredCount": 3,
+    "desiredCount": 5,
     "role": "ecsServiceRole"
 }
