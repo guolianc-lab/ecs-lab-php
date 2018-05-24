@@ -3,8 +3,8 @@
     "service": "%SERVICE_NAME%",
     "taskDefinition": "%FAMILY%:%REVISION%",
     "deploymentConfiguration": {
-        "maximumPercent": 200,
-        "minimumHealthyPercent": 100
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 50
     },
     "healthCheckGracePeriodSeconds": 0,
     "desiredCount": 5,

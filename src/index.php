@@ -21,11 +21,11 @@
         <div class="container">
             <div class="hero-unit">
                 <center>
-                <h1 style="color: blue;">ECS Demo Website</h1>
+                <h1 style="color: red;">ECS Demo Website</h1>
                 
                 <p></p>
                 <p>Your website is now running on Amazon ECS</p>
-                <p>The container hostname is <?php echo gethostname(); ?>.</p>
+                <p>The container hostname is <font style="color: green"> <?php echo gethostname(); ?> </font></p>
                 </center>
             </div>
         </div>
