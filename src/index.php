@@ -7,7 +7,12 @@
         <title>ECS Demo Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <style>body {margin-top: 40px; background-color: #333;} h1 {color: blue;}</style>
+        <style>
+            body {
+                margin-top: 40px; 
+                background-color: #333;
+                } 
+        </style>
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
@@ -16,11 +21,12 @@
         <div class="container">
             <div class="hero-unit">
                 <center>
-                <h1>ECS Demo Website</h1>
-                </center>
+                <h1 style="color: blue;">ECS Demo Website</h1>
+                
                 <p></p>
                 <p>Your website is now running on Amazon ECS</p>
                 <p>The container hostname is <?php echo gethostname(); ?>.</p>
+                </center>
             </div>
         </div>
 
