@@ -21,7 +21,7 @@
         <div class="container">
             <div class="hero-unit">
                 <center>
-                <h1 style="color: yellow;">ECS Demo Website</h1>
+                <h1 style="color: green;">ECS Demo Website</h1>
                 
                 <p></p>
                 <p>Your website is now running on Amazon ECS</p>
